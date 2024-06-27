@@ -1,4 +1,4 @@
-{{Transdat_Consumo_Combustible}}
+Transdat_Consumo_Combustible
 ==============================
 
 {{El siguiente proyecto para la materia Aprendizaje automático consta de desarrollar un modelo de ML el cual pueda ser capaz de reconocer si el gasto de combustible de los vehículos es producto del consumo normal, o de algún otro factor como sería el peor caso, el robo o la mala manipulación de los tanques de combustibles}}
