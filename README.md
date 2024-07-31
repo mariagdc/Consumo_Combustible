@@ -30,7 +30,12 @@ sospeche de que haya una manipulación negativa sobre los tanques de combustible
 Descripcion del Data Set y Origen 
 -----------------------------
 La descripcion detallada de los Data Sets Utilizados se encuentran en la carpeta docs. Visita este link para saber más https://github.com/mariagdc/Consumo_Combustible/tree/main/docs
-
+-------------------------------
+Desarrollo de los Modelos y conclusiones generales
+* Furgoneta: el modelo que se ajusto perfectamente es el de Regresion Lineal: tieene un MSe de 0.08, un valor relativamente bajo- El r cuadrado es de 0.99 lo cual explicaria casi el 100% de la variabilidad de los datos de prueba. Haciendo predicciones kuy precisas y confiables
+* Response.json(camion): En este caso ambos modelos Regresion Lineal y SVM funcionaron bien, sin embargo otra vez se ajusta mucho mejor el Modelo de Regresion Lineal. Ambos con un R cuadraro de  0.99, se diferencian en el MSE(error cuadratico medio) Regresion lineal con 119.84, y SVM con 910.70. Esto indica que las predicciones del modelo SVM son menos precisas y confiables.
+* En el ultimo reporte (Xampi) Se deseaba predecir la cantidad de combustible a traves de los datos del tacometro del vehiculo ya que una vez explorado este data set nos encomtramos con datos faltantes que hicieron imposible el desarrollo de un buen modelo. Por ellos los siguientes datos no son nada precisos y muy poco confiables, por lo que no se puede realizar una interpretación positiva del modelo.   
+--------------------------
 Project Organization 
 ------------
 
