@@ -1,9 +1,42 @@
-{{Transdat_Consumo_Combustible}}
+
+
+![340181243-0a9f62e9-2b2b-4cd4-8fcf-f4d4f3ad9ec4](https://github.com/user-attachments/assets/628b0a12-a8ec-4d30-bf61-bcda405b2607)
+
+
+Transdat Consumo Combustible
 ==============================
 
-{{El siguiente proyecto para la materia Aprendizaje automático consta de desarrollar un modelo de ML el cual pueda ser capaz de reconocer si el gasto de combustible de los vehículos es producto del consumo normal, o de algún otro factor como sería el peor caso, el robo o la mala manipulación de los tanques de combustibles}}
+El siguiente proyecto para la materia Aprendizaje automático consta de desarrollar un modelo de ML el cual pueda ser capaz de reconocer si el gasto de combustible de los vehículos es producto del consumo normal, o de algún otro factor como sería el peor caso, el robo o la mala manipulación de los tanques de combustibles
 
-Project Organization
+Objetivo del proyecto
+------------------------------
+Brindar un control automatizado sobre la manipulación de los tanques de
+combustible, en base a los reportes obtenidos
+=============================
+*Contexto*
+-----------------------------
+Uno de los inconvenientes que se presentan es que a la hora de que el motor se apaga la
+computadora del vehículo deja de recolectar datos hasta que se vuelve a poner en marcha el
+motor. En esos lapsos el nivel de combustible puede presentar diferencias respecto a la última
+conexión.
+----------------------------
+Hipótesis a contrastar:
+
+Las diferencias que se encuentran en los registros de combustible da lugar a que se
+sospeche de que haya una manipulación negativa sobre los tanques de combustibles.
+(sustracción de combustible no autorizado)
+
+------------------------------
+Descripcion del Data Set y Origen 
+-----------------------------
+La descripcion detallada de los Data Sets Utilizados se encuentran en la carpeta docs. Visita este link para saber más https://github.com/mariagdc/Consumo_Combustible/tree/main/docs
+-------------------------------
+Desarrollo de los Modelos y conclusiones generales
+* Furgoneta: el modelo que se ajusto perfectamente es el de Regresion Lineal: tieene un MSe de 0.08, un valor relativamente bajo- El r cuadrado es de 0.99 lo cual explicaria casi el 100% de la variabilidad de los datos de prueba. Haciendo predicciones kuy precisas y confiables
+* Response.json(camion): En este caso ambos modelos Regresion Lineal y SVM funcionaron bien, sin embargo otra vez se ajusta mucho mejor el Modelo de Regresion Lineal. Ambos con un R cuadraro de  0.99, se diferencian en el MSE(error cuadratico medio) Regresion lineal con 119.84, y SVM con 910.70. Esto indica que las predicciones del modelo SVM son menos precisas y confiables.
+* En el ultimo reporte (Xampi) Se deseaba predecir la cantidad de combustible a traves de los datos del tacometro del vehiculo ya que una vez explorado este data set nos encomtramos con datos faltantes que hicieron imposible el desarrollo de un buen modelo. Por ellos los siguientes datos no son nada precisos y muy poco confiables, por lo que no se puede realizar una interpretación positiva del modelo.   
+--------------------------
+Project Organization 
 ------------
 
     ├── LICENSE
