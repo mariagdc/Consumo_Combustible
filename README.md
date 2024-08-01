@@ -7,9 +7,15 @@ Transdat Consumo Combustible
 ==============================
 Link video explicativo: https://drive.google.com/file/d/1qjwhRq6xX6HO8KJ7sXl74IQntTtly2ry/view?usp=sharing
 --------------------------------
+Abstract
+------------
+Automated Fuel Consumption Monitoring and Anomaly Detection Using Machine Learning
+------------
+This research project aims to develop a Machine Learning model capable of identifying whether vehicle fuel consumption is due to normal usage or other factors, such as fuel tank theft or tampering. The data is provided by the company Transdat, which implements remote data transmission solutions. One of the drawbacks is that when the engine turns off, the vehicle's computer stops collecting data until the engine is restarted. During these periods, the fuel level may differ from the last connection.The data obtained consists of reports from three different types of vehicles and was processed by type, as there is a significant difference in the amount of fuel consumed by a truck compared to a forklift or van, which could affect the model's accuracy when making classifications. The main objective of this project is to provide automated control over fuel tank tampering based on the reports obtained. 
+-----------------------------
 
 El siguiente proyecto para la materia Aprendizaje automático consta de desarrollar un modelo de ML el cual pueda ser capaz de reconocer si el gasto de combustible de los vehículos es producto del consumo normal, o de algún otro factor como sería el peor caso, el robo o la mala manipulación de los tanques de combustibles
-
+-----------------
 Objetivo del proyecto
 ------------------------------
 Brindar un control automatizado sobre la manipulación de los tanques de
