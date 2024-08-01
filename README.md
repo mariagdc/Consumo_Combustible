@@ -5,6 +5,8 @@
 
 Transdat Consumo Combustible
 ==============================
+Link video explicativo: https://drive.google.com/file/d/1qjwhRq6xX6HO8KJ7sXl74IQntTtly2ry/view?usp=sharing
+--------------------------------
 
 El siguiente proyecto para la materia Aprendizaje automático consta de desarrollar un modelo de ML el cual pueda ser capaz de reconocer si el gasto de combustible de los vehículos es producto del consumo normal, o de algún otro factor como sería el peor caso, el robo o la mala manipulación de los tanques de combustibles
 
@@ -36,6 +38,7 @@ Desarrollo de los Modelos y conclusiones generales
 * Response.json(camion): En este caso ambos modelos Regresion Lineal y SVM funcionaron bien, sin embargo otra vez se ajusta mucho mejor el Modelo de Regresion Lineal. Ambos con un R cuadraro de  0.99, se diferencian en el MSE(error cuadratico medio) Regresion lineal con 119.84, y SVM con 910.70. Esto indica que las predicciones del modelo SVM son menos precisas y confiables.
 * En el ultimo reporte (Xampi) Se deseaba predecir la cantidad de combustible a traves de los datos del tacometro del vehiculo ya que una vez explorado este data set nos encomtramos con datos faltantes que hicieron imposible el desarrollo de un buen modelo. Por ellos los siguientes datos no son nada precisos y muy poco confiables, por lo que no se puede realizar una interpretación positiva del modelo.   
 --------------------------
+
 Project Organization 
 ------------
 
